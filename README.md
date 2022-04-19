@@ -20,7 +20,7 @@ Once you have logged into the CLI (`forge login`), follow the steps below to ins
 ## Usage
 
 * Go the the list of custom fields.
-* Find the *Risk assessment* custom field.
+* Find the *Prioritization Custom Field* custom field.
 * Click the *more* menu, and then select *Associate to Screens*.
 * Check the screens you want to use the field on, and then click *Update*.
 
@@ -28,11 +28,7 @@ Once you have logged into the CLI (`forge login`), follow the steps below to ins
 
 The app consists of one custom field defined in the `manifest.yml` file. 
 The custom field's view is implemented by the `renderFieldView` function defined in `/src/index.jsx`. 
-The custom field�s editing experience is implemented by the `renderFieldEdit` function defined in `/src/index.jsx`. 
-
-## Contributions
-
-Contributions to Forge Risk Assessment Custom Field are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for details. 
+The custom field's editing experience is implemented by the `renderFieldEdit` function defined in `/src/index.jsx`. 
 
 ## License
 
