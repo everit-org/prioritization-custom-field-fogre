@@ -52,9 +52,9 @@ const Edit = () => {
                   <Option label="High" value="1" />
               </Select>
               <Select label="Impact" name="impact" isRequired>
-                  <Option label="Low" value="1" />
+                  <Option label="Low" value="3" />
                   <Option label="Medium" value="2" />
-                  <Option label="High" value="3" />
+                  <Option label="High" value="1" />
               </Select>
               <Select label="Effort" name="effort" isRequired>
                   <Option label="Low" value="1" />
